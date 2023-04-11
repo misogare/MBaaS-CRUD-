@@ -11,10 +11,10 @@ _Uses Symfony, Slim, Twig and Guzzle frameworks
 _Can be hosted on a web server or locally
 _Compatible with any device that can run Java applications
 ## Installation
-    _Download and install XAMPP to provide the database
-     _Make a new database called etripsdb 
-     _put both restserver and restclient servers in the htdocs folder under xampp
-    _run the restclient 
+   _Download and install XAMPP to provide the database
+   _Make a new database called etripsdb 
+   _put both restserver and restclient servers in the htdocs folder under xampp
+   _run the restclient 
     
     
 ### Note:
@@ -24,10 +24,10 @@ _Compatible with any device that can run Java applications
     var $dsn = 'mysql:host=localhost;dbname=etripsdb';
     For web servers, listen on port 80 and remove indexes from options indexes followsymlinks to prevent indexing.
 ## Usage
-    ***REST Server***
-    The REST server is the web service application responsible for database related operations, processing, and routing the data to the site and client. It uses the Slim 3 framework for PHP.
+**REST Server**
+      The REST server is the web service application responsible for database related operations, processing, and routing the data to the site and client. It uses the Slim 3 framework for PHP.
 
-    **REST Client**
+**REST Client**
     The REST client is the client application that performs operations on the server. It can be used on mobile or any other device that can run Java applications. It uses the Guzzle and Twig frameworks.
 
 Note: this is only simple CRUD you can add more features to it and about , services nav items dont work 
