@@ -33,7 +33,7 @@ _Compatible with any device that can run Java applications
 Note: this is only simple CRUD you can add more features to it and about , services nav items dont work 
 ## Credits
   Misogare(Mesvak)
-  thanks to [Symfony](https://github.com/twigphp/Twig) and Slim Framework Team
+  thanks to [Symfony](https://github.com/twigphp/Twig) and [Slim Framework Team](https://github.com/slimphp)
 ## License
 Copyright (c) [2023] [Misogare]
 
